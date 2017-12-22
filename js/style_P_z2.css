@@ -1,0 +1,91 @@
+.layout{
+	position: relative;
+	width: 900px;
+	border: 2px dashed #555; 
+
+}
+.box1,.box2,.box3{
+	position: relative;
+	top:20px;
+	left:20px;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #DD6A6A;
+	background: #00FFFA;
+	/*background: #00FFFA!important;*/
+border-radius: 20px;	
+/*padding: 20px;	*/
+
+}
+
+.ff{
+	position: fixed;
+bottom: 100px;
+left: 320px;
+width: 300px;
+height: auto;
+	border-radius: 120px;
+	font: 80px solid  Verdana ;
+	color: #FDFDFD;
+	background: #F56D6D;
+	padding:10px;
+	text-align:center;
+	margin:10px;
+	text-decoration:blink;
+}
+.box3{
+	background: red;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+p{
+	font: 20px Open Sans ;
+}
+
+/*.box1, .box2,.box3{
+	width: 200px;
+	height: 200px;
+	border: 2px solid #DD6A6A;
+	background: #00FFFA;
+	/*background: #00FFFA!important;*/
+/*border-radius: 20px;	*/
+/*paddin: 20px;	*/
+
+/*}*/*/
+.box3{
+	background: red;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+p{
+	font: 20px Open Sans ;
+}
+.korol, .valet, .dama_k, .dama_r{
+	position: absolute;
+	/*top: 20px;
+	left: 300px;*/
+}
+.korol{
+ z-index: 1;
+ top: 20px;
+	left: 300px;
+}
+.valet{
+z-index: 2;
+top: 100px;
+	left: 450px;
+}
+.dama_k{
+ z-index: 3;
+ top: 150px;
+	left: 600px;
+
+	/*left: 300px;*/
+}
+.dama_r{
+z-index: 4;
+	top: 300px;
+	left: 700px;
+}
